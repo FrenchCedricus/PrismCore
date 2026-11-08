@@ -25,7 +25,7 @@ PrismCore pilote les périphériques USB (HID) grâce à des **pilotes** : de pe
 Télécharge l'installateur ou la version portable dans les [Releases](../../releases), ou lance depuis les sources :
 
 ```powershell
-git clone <url-du-dépôt> PrismCore
+git clone https://github.com/FrenchCedricus/PrismCore.git PrismCore
 cd PrismCore
 npm install
 node node_modules/electron/install.js   # si npm n'a pas téléchargé le binaire Electron
