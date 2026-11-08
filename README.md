@@ -12,15 +12,13 @@ Suite d'éclairage RGB **locale et libre** pour Windows : sans compte, sans tél
 - **Profils** avec export et import JSON, **icône dans la zone de notification**, démarrage avec Windows, couleur d'arrêt en veille.
 - **Robuste** : un worker par appareil, détection à chaud, chien de garde qui relance un pilote bloqué.
 
-## Appareils pris en charge
+## Appareils
 
-| Appareil | Statut |
-|---|---|
-| SteelSeries Apex 9 Mini | ✅ 63 touches, couleurs par touche |
-| HyperX DuoCast | ✅ 2 zones |
-| MSI Mystic Light (Z490 Gaming Plus et cartes « 185 octets ») | ✅ LED de la carte, JRGB et ARGB sur JRAINBOW 1 et 2. Rien n'est écrit dans la flash de la carte |
+PrismCore pilote les périphériques USB (HID) grâce à des **pilotes** : de petits fichiers JavaScript exécutés dans un bac à sable, qui décrivent les LED d'un appareil et le format des paquets à lui envoyer.
 
-Les pilotes sont de petits fichiers JavaScript, exécutés dans un bac à sable. Pour en ajouter un, voir [docs/PILOTES.md](docs/PILOTES.md). Un dossier de plugins externe au même format peut aussi être choisi dans les Paramètres.
+- Les pilotes fournis sont dans [`drivers/`](drivers/). Ils servent aussi d'exemples.
+- Pour ajouter ton appareil, voir [docs/PILOTES.md](docs/PILOTES.md). Les contributions de nouveaux pilotes sont les bienvenues.
+- Un dossier de pilotes externe, au même format, peut être choisi dans les Paramètres.
 
 ## Installation
 
