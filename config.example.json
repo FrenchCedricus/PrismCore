@@ -1,0 +1,14 @@
+{
+  "pluginsDir": null,
+  "fps": 30,
+  "effect": { "name": "rainbow", "color": "#009bde", "speed": 1, "brightness": 1 },
+  "readTimeoutMs": 200,
+  "disabled": [],
+  "properties": {
+    "SteelSeries Apex 9 Mini": { "LightingMode": "Canvas", "shutdownColor": "#000000" },
+    "MSI Mystic Light Controller": { "advancedMode": false }
+  },
+  "channels": {
+    "MSI Mystic Light Controller": { "JRainbow 1": 0, "JRainbow 2": 0 }
+  }
+}

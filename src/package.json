@@ -1,0 +1,5 @@
+{
+  "type": "module",
+  "private": true,
+  "description": "Marque src/ comme ES modules même une fois extrait de app.asar (app.asar.unpacked/src)."
+}

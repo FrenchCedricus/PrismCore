@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PrismCore</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="titlebar">
+    <div class="brand">
+      <span class="logo"></span>
+      <span class="brand-name">PrismCore</span>
+    </div>
+    <div class="titlebar-center">
+      <label class="profile-switch no-drag">
+        <span class="muted">Profil</span>
+        <select id="profileSelect"></select>
+      </label>
+      <span id="engineStatus" class="pill no-drag">Démarrage…</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="nav"></nav>
+    <main class="content" id="view"></main>
+  </div>
+
+  <aside class="drawer" id="drawer" aria-hidden="true"></aside>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="toasts" id="toasts"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
